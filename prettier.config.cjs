@@ -1,0 +1,6 @@
+import { plugins } from "./.eslintrc.cjs";
+
+module.exports = {
+    plugins: [require('prettier-plugin-tailwindcss')],
+    singleQuote: true
+}
